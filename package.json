@@ -1,22 +1,29 @@
 {
-  "name": "goit-node-hw-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/laptar/goit-node-hw-1.git"
-  },
-  "author": "laptar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/laptar/goit-node-hw-1/issues"
-  },
-  "homepage": "https://github.com/laptar/goit-node-hw-1#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+	"name": "goit-node-hw-1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/laptar/goit-node-hw-1.git"
+	},
+	"author": "laptar",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/laptar/goit-node-hw-1/issues"
+	},
+	"homepage": "https://github.com/laptar/goit-node-hw-1#readme",
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	},
+	"dependencies": {
+		"commander": "^9.4.0",
+		"uniqid": "^5.4.0",
+		"validator": "^13.7.0"
+	}
 }
